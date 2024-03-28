@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "A",
+    "priceSingle": 10.0,
+    "priceOfBulk": 25.0,
+    "bulkItems": 3
+  },
+  {
+    "Name": "B",
+    "priceSingle": 12.0,
+    "priceOfBulk": 20.0,
+    "bulkItems": 2
+  },
+  {
+    "Name": "C",
+    "priceSingle": 15.0,
+    "priceOfBulk": 0.0,
+    "bulkItems": 0
+  },
+  {
+    "Name": "D",
+    "priceSingle": 25.0,
+    "priceOfBulk": 0.0,
+    "bulkItems": 0
+  },
+  {
+    "Name": "F",
+    "priceSingle": 8.0,
+    "priceOfBulk": 15.0,
+    "bulkItems": 2
+  }
+]
