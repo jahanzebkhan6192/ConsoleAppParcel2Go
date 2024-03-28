@@ -1,6 +1,0 @@
-@Parcel2GoApi_HostAddress = http://localhost:5063
-
-GET {{Parcel2GoApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
