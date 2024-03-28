@@ -3,8 +3,8 @@
 string json = File.ReadAllText("BulkPricePlans.json");
 var servicepricelist = Newtonsoft.Json.JsonConvert.DeserializeObject<List<PricePlan>>(json);
 
-ServiceProduct serviceProduct = new ServiceProduct();
-Checkout checkout = new Checkout(serviceProduct, servicepricelist);
+IMultibuyStrategy serviceProduct = new ServiceProduct();
+ICheckout checkout = new Checkout(serviceProduct, servicepricelist);
 
 do
 {

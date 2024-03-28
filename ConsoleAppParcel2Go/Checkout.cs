@@ -3,11 +3,11 @@
     public class Checkout : ICheckout
     {
         List<string> _services = new();
-        private ServiceProduct _serviceProduct;
+        private IMultibuyStrategy _serviceProduct;
 
         List<PricePlan> _pricePlan { get; set; }
 
-        public Checkout(ServiceProduct serviceProduct, List<PricePlan> pricePlan)
+        public Checkout(IMultibuyStrategy serviceProduct, List<PricePlan> pricePlan)
         {
             _serviceProduct = serviceProduct;
             _pricePlan = pricePlan;
