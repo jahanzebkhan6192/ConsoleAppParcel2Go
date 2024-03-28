@@ -1,7 +1,7 @@
 ﻿
 namespace ConsoleAppParcel2Go
 {
-    public class ServiceProduct : IMultibuyStrategy
+    public class FirstPriceService : IMultibuyStrategy
     {
         public double Calculate(int NoOfItems, PricePlan ItemPricePlan)
         {
